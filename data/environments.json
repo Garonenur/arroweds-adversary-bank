@@ -36,6 +36,72 @@
     ]
   },
   {
+    "name": "Abandoned Mine",
+    "tier": 1,
+    "type": "Traversal",
+    "desc": "A twisting warren of disused tunnels carved out of the bedrock by a doomed mining outfit.",
+    "difficulty": "11",
+    "impulses": "Poison the party with deadly gasses, rumble and collapse, split the party, turn them around",
+    "adversaries": "Darkweave Spiders (Darkweave Crawler, Darkweave Spinner, Darkweave Swarmlings), Miner Ghosts (Poltergeist, Will-o’-the-Wisps)",
+    "source": "hopeandfear",
+    "features": [
+      {
+        "name": "Pitch Black",
+        "type": "Passive",
+        "desc": "There is no light, natural or otherwise, in these underground mining tunnels. Ask the PCs what they use for light or how they otherwise find their way in the dark. PCs without a reliable source of light make action and reaction rolls with disadvantage.",
+        "flavor": "What fuel does the party’s light source use, and how long will it last?  What unwanted attention does the light attract?"
+      },
+      {
+        "name": "Labyrinth",
+        "type": "Passive",
+        "desc": "The party must complete a Progress Countdown (4) to find their way through the mines. Each time a PC rolls with Hope while finding their way through, they discover one of the curiosities below.  - An unmined vein of precious metals or gemstones - Various mining tools, including a broken (but mendable) mine cart made of adamantine - Psychic echoes of the miners’ tragic end - The desiccated corpses of miners who lost their way in the tunnels - Tattered remnants of darkweave spider silk",
+        "flavor": "What did miners previously extract here? Who in the party knows how to navigate below ground? What are the PCs most afraid might happen to them down here?"
+      },
+      {
+        "name": "Into the Spider's Web",
+        "type": "Action",
+        "desc": "Spend a Fear to summon a Darkweave Queen inside her gossamer-strewn lair. She drops from the ceiling within Close range of a PC and immediately takes the spotlight.",
+        "flavor": "How does the Darkweave Queen use her lair to her advantage? What remnants of her past meals can the party find here?"
+      },
+      {
+        "name": "Impending Collapse",
+        "type": "Reaction",
+        "desc": "Countdown (2). The first time the PCs roll with Fear, describe how the ground subtly vibrates as rocks shift overhead and activate the countdown. It ticks down when a PC rolls with Fear. When it triggers, each PC must succeed on an Agility Reaction Roll or take 1d8+3 physical damage and become temporarily Restrained by the rubble.",
+        "flavor": "What other signs of instability does the mine offer the party? What new dangers does the tunnel system’s new configuration expose the party to?"
+      }
+    ]
+  },
+  {
+    "name": "Alchemist's Abandoned Workshop",
+    "tier": 1,
+    "type": "Exploration",
+    "desc": "A lightning-powered laboratory built by a scientist searching for the secret to immortality.",
+    "difficulty": "11",
+    "impulses": "Break down the barrier between life and death, draw down lightning from the heavens, overclock the machinery",
+    "adversaries": "Lab Leftovers (Construct, Minor Fire Elemental, Patchwork Zombie Hulk, Swarm of Rats)",
+    "source": "hopeandfear",
+    "features": [
+      {
+        "name": "Cabinet of Curiosities",
+        "type": "Passive",
+        "desc": "The workshop’s shelves, cupboards, and tables are cluttered with macabre bric-a-brac, including body parts in jars of formaldehyde and bloody surgical implements. Once per scene, a PC can make an Instinct Roll to look for something useful in the chaos.",
+        "flavor": "What was the alchemist studying? What smell overwhelms you as you shuffle through their things?"
+      },
+      {
+        "name": "Strange Machinery",
+        "type": "Passive",
+        "desc": "The workshop contains numerous pieces of bizarre technology and scientific instrumentation. A PC can make a Knowledge Roll to try to figure out how it works.  On a success, they can get it running. On a failure, they break something and take 1d8+4 direct magic damage as they’re shocked by electricity and doused in caustic chemicals.",
+        "flavor": "What do these machines do? What do these instruments measure?"
+      },
+      {
+        "name": "It's Alive",
+        "type": "Action",
+        "desc": "Consequence Countdown (6). A thunderstorm gathers overhead, threatening to jolt the lightning rod assembly installed atop the workshop. Activate the countdown and narrate how the storm’s power increases each time it ticks down when a PC makes an action roll. When it triggers, lightning strikes the rod assembly and overloads the workshop machinery, which explodes after resurrecting one of the alchemist’s abandoned projects. Each target within Close range of the machinery must succeed on an Agility Reaction Roll or take 1d10 magic damage.  Summon a Failed Experiment at a location within the workshop and gain a Fear for each PC within Very Close range of it.",
+        "flavor": "What was the alchemist trying to achieve with this experiment?  Where did they get the materials for it?"
+      }
+    ]
+  },
+  {
     "name": "AMBUSHED",
     "tier": 1,
     "type": "Event",
@@ -151,6 +217,192 @@
     ]
   },
   {
+    "name": "Corrupted Swamp",
+    "tier": 1,
+    "type": "Traversal",
+    "desc": "A wretched stretch of slimy water, toxic creatures, and decay.",
+    "difficulty": "11",
+    "impulses": "Corrupt, emphasize putrescence, reveal the twisted and unnatural, sicken",
+    "adversaries": "Any Undead (Skeleton, Zombie, Spectral Guardian), Giant Rat, Green Ooze, Tangle Bramble",
+    "source": "hopeandfear",
+    "features": [
+      {
+        "name": "Swamp Sickness",
+        "type": "Passive",
+        "desc": "At the end of a long rest, each PC must succeed on a Strength Reaction Roll or gain a d4 Sickened Die, starting with the 1 value facing up. If a PC fails this roll and already has a Sickened Die, they increase the value by 1, to a maximum value of 4. A PC with a Sickened Die gains a penalty to their action rolls equal to its value. When a PC with a Sickened Die would clear a HP, they can decrease the value of their Sickened Die by 1 instead. When the die’s value would fall to 0, remove it.",
+        "flavor": "Is the swamp teeming with life, filled with decay, or both? What force blighted this swamp, and what signs of its origins remain?"
+      },
+      {
+        "name": "Soggy and Slogging It",
+        "type": "Passive",
+        "desc": "When a PC moves as part of an action, they can only move up to Very Close range. Action rolls made to move farther than Very Close range have disadvantage.  Before rolling, a PC can mark a Stress to remove this disadvantage.",
+        "flavor": "What creatures, living or otherwise, lurk beneath the water’s murky surface? Where or how do the PCs find relief from the stinking water?"
+      },
+      {
+        "name": "Rotbloom",
+        "type": "Action",
+        "desc": "Spend a Fear to dust an area within Far range in noxious pollen. Each target in that area must succeed on a Strength or Instinct Reaction Roll or take 1d6+3 magic damage and become Vulnerable until the end of the scene.",
+        "flavor": "How can you tell the plants that emit this pollen are carnivorous?  What nightmares or dreamscapes does the pollen’s scent conjure?"
+      },
+      {
+        "name": "Dancing Lights",
+        "type": "Action",
+        "desc": "At the start of a rest, you can spend a Fear to have floating orbs enthrall the weary and lure a PC deeper into the swamp. A different PC can use a downtime move to make an action roll to search for them. On a success, both PCs return to camp and can choose downtime moves as normal.  On a failure—or if no one searches for them—the lost PC returns hours later, covered in mud and worse, and can’t choose downtime moves until their next rest.",
+        "flavor": "What does the lost PC see in the lights that draws them into the darkness? What other glimpses of surprising beauty do the PCs encounter here?"
+      }
+    ]
+  },
+  {
+    "name": "Cursed Graveyard",
+    "tier": 1,
+    "type": "Exploration",
+    "desc": "A sprawling cemetery filled with crumbling headstones, twisted trees possessed by the dead, and crypts overgrown with moss and ivy.",
+    "difficulty": "11",
+    "impulses": "Bury them six feet deep, choke with fog, lure with promises of entombed treasure, unleash the restless dead",
+    "adversaries": "Corrupted Spirits (Deeproot Defender, Phantom), Living Dead (Skeleton Warrior, Zombie Pack, Patchwork Zombie Hulk)",
+    "source": "hopeandfear",
+    "features": [
+      {
+        "name": "Room for One More",
+        "type": "Passive",
+        "desc": "If a PC marks their last HP while in the graveyard, they become a Specter instead of making a death move. While a Specter, a PC can communicate with the living but can’t interact with the physical world, and they must stay within Close range of their corpse or cross through the veil of death.  This condition is cleared when the PC clears a HP.",
+        "flavor": "iWhat new information or experience does a PC gain from becoming a specter? How can the party reunite the PC’s spirit with their flesh?  What happens if their ritual goes wrong?"
+      },
+      {
+        "name": "Hallowed Ground",
+        "type": "Passive",
+        "desc": "At the center of the graveyard is a seemingly undisturbed chapel. On a successful Instinct Roll, a PC can discover this structure is sanctified against the cemetery’s denizens. While inside the chapel, the PCs have advantage on action rolls to fight or drive off spirits and undead.",
+        "flavor": "Who sanctified this place, and what happened to them? What holy relics can be found here?"
+      },
+      {
+        "name": "Misty Miasma",
+        "type": "Action",
+        "desc": "Spend a Fear to fill an area within Far range with a low-lying ectoplasmic fog that seeps up through the soggy earth. When a PC rolls with Fear while in the miasma, they must mark a Stress.",
+        "flavor": "What horrors do the PCs see in the fog? What disorienting smell does the miasma emit?"
+      },
+      {
+        "name": "The Dead Arise",
+        "type": "Action",
+        "desc": "Spend a Fear to have undead hands burst forth from the ground beneath a PC. The target must succeed on an Agility or Presence Reaction Roll or mark a Stress and become temporarily Restrained as hands grasp them.",
+        "flavor": "Who were these people in life? Why were they buried here? Why won’t they stay dead?"
+      },
+      {
+        "name": "The Dead Don't Die Easy",
+        "type": "Reaction",
+        "desc": "When an adversary would mark their last HP, roll a d6. On a result of 5 or 6, the adversary doesn’t mark it.",
+        "flavor": "Who commanded this land to reject death? How do the dead come back different here?"
+      }
+    ]
+  },
+  {
+    "name": "Grand Feast",
+    "tier": 1,
+    "type": "Social",
+    "desc": "A community-wide celebration featuring way too much drink, food, and fun.",
+    "difficulty": "11",
+    "impulses": "Bring everyone together, celebrate a momentous occasion, encourage revelrous abandon",
+    "adversaries": "Apprentice Assassin, Guard, Merchant, Petty Noble, Sellsword, Spy",
+    "source": "hopeandfear",
+    "features": [
+      {
+        "name": "Loose Lips & Fast Friends",
+        "type": "Passive",
+        "desc": "Everyone is here to have a good time. PCs have advantage on Presence Rolls to socialize with other revelers.",
+        "flavor": "What is everyone celebrating? Where’s the party? Who’s footing the bill?"
+      },
+      {
+        "name": "The Evening's Entertainment",
+        "type": "Action",
+        "desc": "The host of the feast kicks off the entertainment portion of the evening. Each PC can make an action roll to initiate a performance, competition, or other lighthearted diversion. A PC who succeeds becomes an Honored Guest. Until the feast ends, an Honored Guest can claim a gift from the host, then clear the condition.",
+        "flavor": "What does the host want to see or hear more than anything else?  What can they offer the PCs in return?"
+      },
+      {
+        "name": "There's Always That One…",
+        "type": "Action",
+        "desc": "Spend a Fear to Trap a PC in conversation with the most unpleasant person at the party until the PC succeeds on an action roll to extricate themself from this social black hole. While Trapped, a PC can’t make action rolls except to try to clear this condition. When a Trapped PC fails an action roll, they must mark a Stress.",
+        "flavor": "What makes this dud so unpleasant? What’s something the PC cares about that the dud constantly diminishes or dismisses? What boring or awful thing can the dud not shut up about?"
+      },
+      {
+        "name": "Last Call",
+        "type": "Reaction",
+        "desc": "After a long night, the partygoers start filtering out. When the feast concludes, all PCs who participated in the festivities clear all Stress and gain a Hope. Additionally, each Honored Guest clears all HP and gains an additional Hope, then clears the condition. Each PC who overindulged must succeed on a Strength Reaction Roll or become Hungover until their next rest. While Hungover, a PC gains a −1 penalty to action rolls.",
+        "flavor": "What crazy stories do the PCs share with one another as they leave the party? Who do the PCs see unexpectedly canoodling afterward?"
+      }
+    ]
+  },
+  {
+    "name": "Hold The Line",
+    "tier": 1,
+    "type": "Event",
+    "desc": "The party must fend off multiple waves of enemies long enough for an ally to complete an important objective.",
+    "difficulty": "11",
+    "impulses": "Crash waves of enemies upon the party’s shores, never let them breathe, target their charge",
+    "adversaries": "Guards, Jagged Knives, Pirates, Skeletons, Zombies",
+    "source": "hopeandfear",
+    "features": [
+      {
+        "name": "Bodyguards",
+        "type": "Passive",
+        "desc": "The PCs must protect an NPC (their “Charge”) long enough for the Charge to complete a task, such as finishing a magical ritual or repairing a mechanical device. At the start of the scene, activate a Task Countdown with a value equal to the number of PCs in the scene. It ticks down when the PCs defeat a wave of adversaries. When it triggers, the Charge completes their task.",
+        "flavor": "Who are the PCs protecting, and what is the Charge trying to do?  Who wants to stop them? What will happen if the Charge isn’t able to complete their task?"
+      },
+      {
+        "name": "I Must Not Fail!",
+        "type": "Passive",
+        "desc": "When the first wave of adversaries appears, place a Resolve Countdown next to the Charge with a value equal to the number of PCs in the scene. When an adversary makes an attack against the Charge, the attack automatically succeeds and ticks down the Resolve Countdown.  When it triggers, the Charge either flees, dies, or becomes incapacitated.",
+        "flavor": "Why is this task so important to the Charge? What has the power to break their resolve?"
+      },
+      {
+        "name": "Swarming Multitudes",
+        "type": "Passive",
+        "desc": "All adversaries gain the “Relentless (2)” feature: They can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.",
+        "flavor": "Where does these foes’ newfound power come from? Is there any way to cut them off from it?"
+      },
+      {
+        "name": "Waves updon Waves",
+        "type": "Reaction",
+        "desc": "When there are no adversaries in the scene, summon a wave of adversaries at Far range from the Charge. Each wave comprises two Tier 1 Minions for each PC in the scene.",
+        "flavor": "Where do these adversaries come from? Who leads them from the shadows?"
+      }
+    ]
+  },
+  {
+    "name": "Local Festival",
+    "tier": 1,
+    "type": "Social",
+    "desc": "Commoners and nobles alike gather from the surrounding area for a weeklong celebration.",
+    "difficulty": "11",
+    "impulses": "Express local culture and history, forge new relationships, reinforce community",
+    "adversaries": "Festival Security (Bladed Guard, Head Guard), Local Luminaries (Commoner, Merchant, Petty Noble), Sundry Ne’er-Do-Wells (Jagged Knife Bandit, Lackey)",
+    "source": "hopeandfear",
+    "features": [
+      {
+        "name": "Remember, Remember",
+        "type": "Passive",
+        "desc": "This time of year marks an important anniversary or astronomical event, such as the founding of the town or the summer solstice. On a successful Knowledge Roll, a PC can answer one of the questions below (or two, if they critically succeed). On a failure, they answer one question, but you decide which part of their answer is inaccurate and gain a Fear.  - The festival celebrates a crop or export that is critical to the economy here. What is it?  - Why didn’t the festival happen last year?  - This festival is similar to another one held in a neighboring region. What makes them different?",
+        "flavor": "What are the locals celebrating? What is the festival famous for?  How did the PCs first hear about it?"
+      },
+      {
+        "name": "Political Machinations",
+        "type": "Passive",
+        "desc": "While everyone is gathered in one place, the locals take the opportunity to quash feuds, drum up new business, and navigate local politics. A PC can stick their nose in the goings-on by making a Presence Roll. On a success, they make a connection to a local luminary who can give them a job, share important information, or make useful introductions.  On a failure, they must mark a Stress.",
+        "flavor": "What new crisis is on everyone’s lips? Why can’t this community solve the problem on its own? What reward can they offer the PCs in exchange for their aid?"
+      },
+      {
+        "name": "Let the Games Begin!",
+        "type": "Action",
+        "desc": "One of the festival’s signature events is a sporting competition or series of games. If one or more PCs throw their hat into the ring, introduce rival competitors for them to face off against. To claim victory, the PCs must complete a Progress Countdown (5) to win events or score points before their rivals complete a Consequence Countdown (5).",
+        "flavor": "What skills or abilities does this competition test? What does the victor win? Why is failure not an option for the PCs or their rivals?"
+      },
+      {
+        "name": "Legendary Local",
+        "type": "Action",
+        "desc": "The festival culminates in the arrival of a figure from local folklore who performs special duties for the local community, such as giving treats to children, heckling the gentry, or blessing next year’s crops. If the PCs show this figure the proper deference and respect, they gain an appropriate blessing, such as a cryptic prophecy or a magical trinket, and gain 1d4 Hope to distribute among the party. If they insult the figure, they take 1d6+2 magic damage as the figure curses them, and you gain a Fear.",
+        "flavor": "Is this a singular entity or a mantle passed from person to person?  What distinctive form do they possess? What is the source of their power to grant boons and banes?"
+      }
+    ]
+  },
+  {
     "name": "LOCAL TAVERN",
     "tier": 1,
     "type": "Social",
@@ -262,6 +514,42 @@
         "type": "Action",
         "desc": "Spend a Fear to summon a Glass Snake within Close range of a chosen PC. The Snake appears in or near the river and immediately takes the spotlight to use their \"Spinning Serpent\" action.",
         "flavor": "What treasures does the beast have in their burrow? What travelers have already fallen victim to this predator?"
+      }
+    ]
+  },
+  {
+    "name": "Raiding Party",
+    "tier": 1,
+    "type": "Event",
+    "desc": "A pirate ship disgorges its crew into a port town or shoreline village to loot and plunder.",
+    "difficulty": "11",
+    "impulses": "Light it on fire, overwhelm with speed and numbers, take everything that isn’t nailed down",
+    "adversaries": "Ship’s Crew (Pirate Captain, Pirate Raiders, Pirate Tough)",
+    "source": "hopeandfear",
+    "features": [
+      {
+        "name": "Rally the Locals",
+        "type": "Passive",
+        "desc": "Progress Countdown (5). When the pirates first appear, activate the countdown. It ticks down when a PC succeeds on an action roll to stem the chaos and destruction of the pirate raid. When it triggers, the locals become inspired by the party’s actions and join the fight against the pirates. Each PC gains a d6 Morale Die, which they can spend to add to an action, reaction, or damage roll.",
+        "flavor": "How do the pirates threaten or endanger the town besides attacking its inhabitants? What defenses can the PCs take advantage of?"
+      },
+      {
+        "name": "Parley",
+        "type": "Passive",
+        "desc": "On a successful Knowledge Roll, a PC knows enough pirate law to demand a parley with the Pirate Captain.  Once the parley is issued, the captain pauses the combat to allow a PC to sue for peace or negotiate the terms of surrender with a Presence Roll.",
+        "flavor": "Why do these pirates respect this captain enough to follow them?  What do they care about more than ill-gotten booty?"
+      },
+      {
+        "name": "Fire the Cannons",
+        "type": "Action",
+        "desc": "Spend up to 3 Fear to have the pirate ship fire its cannons into the combat. For each Fear spent, choose a point anywhere on the battlefield. Each PC within Close range of one or more of those points must make an Agility Reaction Roll. Targets who fail take 1d8+3 physical damage.  Targets who succeed must mark a Stress or take half damage.",
+        "flavor": "What collateral damage do these cannonballs cause? Whose lives do they wantonly endanger?"
+      },
+      {
+        "name": "Take Captives",
+        "type": "Reaction",
+        "desc": "When a number of pirates equal to the number of PCs in the scene are defeated, roll a d6. On a result of 5 or 6, the pirates change tactics, capturing locals and retreating to the ship so they can ransom the captives later. Activate a Consequence Countdown (4). It ticks down when a PC makes an action roll. When it triggers, the pirates sail away with their victims.",
+        "flavor": "Who do the pirates deem the best captives, and why? What do they want in exchange for the captives’ return?"
       }
     ]
   },
